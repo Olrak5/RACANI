@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://label.gd" id="1_eo1ns"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_l4jcg"]
-font_size = 72
+font_size = 48
 
 [sub_resource type="GDScript" id="GDScript_10wia"]
 script/source = "extends Button
@@ -24,10 +24,10 @@ func _process(delta: float) -> void:
 [node name="GameEnd" type="Node2D"]
 
 [node name="Label" type="Label" parent="."]
-offset_left = 1245.0
-offset_top = 1019.0
-offset_right = 2610.0
-offset_bottom = 1177.0
+offset_left = 323.0
+offset_top = 447.0
+offset_right = 1688.0
+offset_bottom = 605.0
 text = "wow"
 label_settings = SubResource("LabelSettings_l4jcg")
 horizontal_alignment = 1
@@ -37,10 +37,10 @@ script = ExtResource("1_eo1ns")
 
 [node name="Button" type="Button" parent="Label"]
 layout_mode = 0
-offset_left = 2387.0
-offset_top = 1086.0
-offset_right = 2583.0
-offset_bottom = 1131.0
+offset_left = 589.0
+offset_top = 214.0
+offset_right = 785.0
+offset_bottom = 259.0
 text = "NEW GAME"
 script = SubResource("GDScript_10wia")
 

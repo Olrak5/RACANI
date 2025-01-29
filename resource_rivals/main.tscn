@@ -30,16 +30,16 @@ size = Vector3(8, 1, 8)
 [sub_resource type="Theme" id="Theme_va5oi"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_c4t1s"]
-font_size = 48
+font_size = 24
 
 [sub_resource type="LabelSettings" id="LabelSettings_2sy0b"]
-font_size = 48
+font_size = 24
 
 [sub_resource type="LabelSettings" id="LabelSettings_mlqa1"]
-font_size = 48
+font_size = 24
 
 [sub_resource type="LabelSettings" id="LabelSettings_5sx20"]
-font_size = 48
+font_size = 24
 
 [node name="Main" type="Node"]
 script = ExtResource("1_uc6w3")
@@ -98,10 +98,10 @@ script = ExtResource("7_d6j6q")
 
 [node name="TeamLabel" type="Label" parent="UserInterface"]
 layout_mode = 0
-offset_left = 1820.0
-offset_top = 6.0
-offset_right = 2100.0
-offset_bottom = 73.0
+offset_left = 711.0
+offset_top = 5.0
+offset_right = 991.0
+offset_bottom = 72.0
 text = "Team Name"
 label_settings = SubResource("LabelSettings_mlqa1")
 horizontal_alignment = 1
@@ -113,12 +113,12 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 5.0
-offset_top = 1200.0
-offset_right = 83.0
-offset_bottom = 1231.0
+offset_left = 15.0
+offset_top = 1000.0
+offset_right = 93.0
+offset_bottom = 1031.0
 grow_vertical = 0
-scale = Vector2(4, 4)
+scale = Vector2(2, 2)
 text = "End Turn"
 script = ExtResource("7_t43r6")
 
@@ -127,10 +127,9 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = 3188.0
-offset_top = 8.0
-offset_right = 3793.0
-offset_bottom = 1281.0
+offset_left = 1578.0
+offset_right = 1976.0
+offset_bottom = 1078.0
 grow_horizontal = 0
 color = Color(0.18, 0.18, 0.18, 0.172549)
 
@@ -152,117 +151,117 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -137.5
-offset_top = 151.0
-offset_right = -87.5
-offset_bottom = 179.0
+offset_left = -75.5
+offset_top = 101.0
+offset_right = -25.5
+offset_bottom = 129.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="Barracks" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -112.5
-offset_top = 254.0
-offset_right = -62.5
-offset_bottom = 282.0
+offset_left = -77.5
+offset_top = 182.0
+offset_right = -27.5
+offset_bottom = 210.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="WorkerGenerator" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -160.5
-offset_top = 361.0
-offset_right = -107.5
-offset_bottom = 389.0
+offset_left = -88.0
+offset_top = 271.0
+offset_right = -35.0
+offset_bottom = 299.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="SoldierGenerator" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -155.5
-offset_top = 469.0
-offset_right = -105.5
-offset_bottom = 497.0
+offset_left = -86.0
+offset_top = 352.0
+offset_right = -36.0
+offset_bottom = 380.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="TankGenerator" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -152.5
-offset_top = 581.0
-offset_right = -102.5
-offset_bottom = 609.0
+offset_left = -85.0
+offset_top = 460.0
+offset_right = -35.0
+offset_bottom = 488.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="RangedGenerator" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -152.5
-offset_top = 696.0
-offset_right = -102.5
-offset_bottom = 724.0
+offset_left = -85.0
+offset_top = 572.0
+offset_right = -35.0
+offset_bottom = 600.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="ScoutGenerator" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -150.5
-offset_top = 814.0
-offset_right = -100.5
-offset_bottom = 842.0
+offset_left = -84.0
+offset_top = 682.0
+offset_right = -34.0
+offset_bottom = 710.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="Farm" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -149.5
-offset_top = 927.0
-offset_right = -99.5
-offset_bottom = 955.0
+offset_left = -84.0
+offset_top = 773.0
+offset_right = -34.0
+offset_bottom = 801.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="Sawmill" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -148.5
-offset_top = 1042.0
-offset_right = -98.5
-offset_bottom = 1070.0
+offset_left = -80.0
+offset_top = 865.0
+offset_right = -30.0
+offset_bottom = 893.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="Miner" type="Button" parent="UserInterface/BuildingSelect"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -149.5
-offset_top = 1154.0
-offset_right = -99.5
-offset_bottom = 1182.0
+offset_left = -77.0
+offset_top = 962.0
+offset_right = -27.0
+offset_bottom = 990.0
 grow_horizontal = 2
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
