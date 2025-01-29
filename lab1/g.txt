@@ -1,0 +1,1 @@
+g++ -g3 -Wall tutorial07.cpp ../common/shader.cpp ../common/texture.cpp ../common/controls.cpp ../common/objloader.cpp -lGL -lGLU -lglut -lglfw -lGLEW -I..

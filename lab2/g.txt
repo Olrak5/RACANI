@@ -1,0 +1,1 @@
+g++ -g3 -Wall lab1.cpp ./headers/shader.cpp ./headers/texture.cpp ./headers/controls.cpp ./headers/objloader.cpp ./headers/bspline.cpp ./headers/cploader.cpp -lGL -lGLU -lglut -lglfw -lGLEW -I.
