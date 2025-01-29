@@ -1,0 +1,463 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        20.826927185058594,
+        142.05679321289063,
+        64.26153564453125
+      ],
+      "min": [
+        -35.16284942626953,
+        94.56155395507813,
+        -25.371883392333984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5904,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        0.9962854981422424,
+        0.9485340714454651,
+        0.9673729538917542
+      ],
+      "min": [
+        -0.9925503134727478,
+        -0.9429660439491272,
+        -0.9749267101287842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        0.9874329566955566,
+        0.949784517288208,
+        0.9930368661880493,
+        1.0
+      ],
+      "min": [
+        -0.9874615669250488,
+        -0.9926031827926636,
+        -0.9924635291099548,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        0.9900620579719543,
+        0.9886355400085449
+      ],
+      "min": [
+        0.041595458984375,
+        0.021862298250198364
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3936,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        0.9900620579719543,
+        0.9886355400085449
+      ],
+      "min": [
+        0.041595458984375,
+        0.021862298250198364
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7872,
+      "componentType": 5126,
+      "count": 492,
+      "max": [
+        0.9900620579719543,
+        0.9886355400085449
+      ],
+      "min": [
+        0.041595458984375,
+        0.021862298250198364
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1620,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 11808,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        61.09471130371094,
+        181.10791015625,
+        45.80076599121094
+      ],
+      "min": [
+        -61.094696044921875,
+        -0.7606781125068665,
+        -99.04818725585938
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22584,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        1.0,
+        0.9999616146087646,
+        0.9982064366340637
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9999909996986389
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 7872,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        0.9997886419296265,
+        0.9999379515647888,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9953965544700623,
+        -0.9999999403953552,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11808,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        0.9818033576011658,
+        0.9903196096420288
+      ],
+      "min": [
+        0.008729040622711182,
+        0.022862643003463745
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18992,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        0.9818033576011658,
+        0.9903196096420288
+      ],
+      "min": [
+        0.008729040622711182,
+        0.022862643003463745
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 26176,
+      "componentType": 5126,
+      "count": 898,
+      "max": [
+        0.9818033576011658,
+        0.9903196096420288
+      ],
+      "min": [
+        0.008729040622711182,
+        0.022862643003463745
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6480,
+      "componentType": 5125,
+      "count": 3990,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Arkikon (https://sketchfab.com/ragnar)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/target-archery-bafac3d3d41048fa8cd42c8d5ca81a4c",
+      "title": "Target (archery)"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22440,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33360,
+      "byteOffset": 22440,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33360,
+      "byteOffset": 55800,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22240,
+      "byteOffset": 89160,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 111400,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/ArrowsMAT_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/ArrowsMAT_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/ArrowsMAT_normal.png"
+    },
+    {
+      "uri": "textures/TargetMAT_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/TargetMAT_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/TargetMAT_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "ArrowsMAT",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "TargetMAT",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "TargetArchery_ArrowsMAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "TargetArchery_TargetMAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11,
+            "TEXCOORD_2": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Target_Archery.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "TargetArchery"
+    },
+    {
+      "mesh": 0,
+      "name": "TargetArchery_ArrowsMAT_0"
+    },
+    {
+      "mesh": 1,
+      "name": "TargetArchery_TargetMAT_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Miner
+* source:	https://sketchfab.com/3d-models/miner-8861a2771fa449aab24669144590cf61
+* author:	Phuc Nguyen (https://sketchfab.com/phucn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Miner" (https://sketchfab.com/3d-models/miner-8861a2771fa449aab24669144590cf61) by Phuc Nguyen (https://sketchfab.com/phucn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

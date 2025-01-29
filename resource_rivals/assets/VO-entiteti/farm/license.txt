@@ -1,0 +1,8 @@
+Model Information:
+* title:	DAE Diorama - Small farm
+* source:	https://sketchfab.com/3d-models/dae-diorama-small-farm-b8f5616338534fdbb986ae329e8fbfd2
+* author:	Ádám Knapecz (https://sketchfab.com/knapeczadam)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

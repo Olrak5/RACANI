@@ -1,0 +1,8 @@
+Model Information:
+* title:	Western Diorama - Low Poly
+* source:	https://sketchfab.com/3d-models/western-diorama-low-poly-0824a6a99b71436da5ea75b2313f73ea
+* author:	libblekibble (https://sketchfab.com/libblekibble)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

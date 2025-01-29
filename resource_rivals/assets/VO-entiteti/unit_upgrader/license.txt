@@ -1,0 +1,11 @@
+Model Information:
+* title:	Geodesic dome. Laboratory.
+* source:	https://sketchfab.com/3d-models/geodesic-dome-laboratory-92dc6cf164474babb0d37d1949ea5250
+* author:	yakovenko.v.n.0707 (https://sketchfab.com/yakovenko.v.n.0707)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Geodesic dome. Laboratory." (https://sketchfab.com/3d-models/geodesic-dome-laboratory-92dc6cf164474babb0d37d1949ea5250) by yakovenko.v.n.0707 (https://sketchfab.com/yakovenko.v.n.0707) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

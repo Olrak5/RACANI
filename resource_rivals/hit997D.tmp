@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3s3apsf4imae"]
+
+[ext_resource type="Script" path="res://hitbox.gd" id="1_nvlwv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8kiii"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_101xq"]
+transparency = 1
+albedo_color = Color(0.33, 0.33, 0.33, 0.356863)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ffubf"]
+material = SubResource("StandardMaterial3D_101xq")
+size = Vector2(1, 1)
+
+[node name="Hitbox" type="Area3D"]
+script = ExtResource("1_nvlwv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_8kiii")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("PlaneMesh_ffubf")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

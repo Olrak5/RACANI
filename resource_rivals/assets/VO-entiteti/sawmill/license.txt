@@ -1,0 +1,8 @@
+Model Information:
+* title:	Joshua Tree mine well pump
+* source:	https://sketchfab.com/3d-models/joshua-tree-mine-well-pump-f39403d6e85442df8cc753abbfb49740
+* author:	Austin Beaulier (https://sketchfab.com/Austin.Beaulier)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

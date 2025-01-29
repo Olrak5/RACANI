@@ -1,0 +1,11 @@
+Model Information:
+* title:	Horse stable
+* source:	https://sketchfab.com/3d-models/horse-stable-c510f246b5b44027b4fa52f44982aa73
+* author:	ta.holovan (https://sketchfab.com/ta.holovan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Horse stable" (https://sketchfab.com/3d-models/horse-stable-c510f246b5b44027b4fa52f44982aa73) by ta.holovan (https://sketchfab.com/ta.holovan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

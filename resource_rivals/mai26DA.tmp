@@ -1,0 +1,227 @@
+[gd_scene load_steps=12 format=3 uid="uid://clbhkpd5pd083"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_uc6w3"]
+[ext_resource type="Texture2D" uid="uid://b7ud5gyw1315o" path="res://assets/dry-dirt2-Unity-2/dry-dirt2-albedo.png" id="2_jikn7"]
+[ext_resource type="Texture2D" uid="uid://bjlvx0tu3vlbb" path="res://assets/dry-dirt2-Unity-2/dry-dirt2-ao.png" id="3_turlg"]
+[ext_resource type="Texture2D" uid="uid://kd56p001r18l" path="res://assets/dry-dirt2-Unity-2/dry-dirt2-height2.png" id="4_ac5mo"]
+[ext_resource type="Texture2D" uid="uid://dhvm2yjmwsdkw" path="res://assets/dry-dirt2-Unity-2/dry-dirt2-normal.png" id="5_27ig8"]
+[ext_resource type="Script" path="res://ResourcesLabel.gd" id="6_h7era"]
+[ext_resource type="Script" path="res://end_turn.gd" id="7_t43r6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8bc5b"]
+size = Vector3(8, 1, 8)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_frm4f"]
+albedo_texture = ExtResource("2_jikn7")
+normal_enabled = true
+normal_texture = ExtResource("5_27ig8")
+ao_enabled = true
+ao_texture = ExtResource("3_turlg")
+ao_texture_channel = 4
+heightmap_enabled = true
+heightmap_texture = ExtResource("4_ac5mo")
+
+[sub_resource type="BoxMesh" id="BoxMesh_neb0j"]
+material = SubResource("StandardMaterial3D_frm4f")
+size = Vector3(8, 1, 8)
+
+[sub_resource type="Theme" id="Theme_va5oi"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_uc6w3")
+
+[node name="Field" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Field"]
+shape = SubResource("BoxShape3D_8bc5b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Field"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("BoxMesh_neb0j")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="Hitboxes" type="Node" parent="Field"]
+
+[node name="Entities" type="Node" parent="Field"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, -0.000775751, 0.000227056, -0.000226437, 0.000796075, 1, -0.000775932, -0.999999, 0.000795899, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Marker3D" type="Marker3D" parent="."]
+transform = Transform3D(1, -8.88178e-16, -3.88235e-23, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Marker3D"]
+transform = Transform3D(1, 8.27651e-16, -4.59755e-16, -3.02639e-17, 0.965926, -0.258819, 2.29877e-16, 0.258819, 0.965926, -1.77636e-15, -2.00001, 2)
+
+[node name="UserInterface" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource("Theme_va5oi")
+
+[node name="Label" type="Label" parent="UserInterface"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Resources
+Food: 0
+Wood: 0
+Minerals: 0"
+script = ExtResource("6_h7era")
+
+[node name="End Turn" type="Button" parent="UserInterface"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+offset_right = 78.0
+grow_vertical = 0
+text = "End Turn"
+script = ExtResource("7_t43r6")
+
+[node name="BuildingSelect" type="ColorRect" parent="UserInterface"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 973.0
+offset_right = 1151.0
+offset_bottom = 649.0
+grow_horizontal = 0
+color = Color(0.18, 0.18, 0.18, 0.172549)
+
+[node name="Label" type="Label" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -51.0
+offset_top = 19.0
+offset_right = 56.0
+offset_bottom = 42.0
+grow_horizontal = 2
+text = "Build Building"
+
+[node name="UnitUpgrader" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.0
+offset_top = 64.0
+offset_right = 26.0
+offset_bottom = 92.0
+grow_horizontal = 2
+
+[node name="Barracks" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.0
+offset_top = 109.0
+offset_right = 26.0
+offset_bottom = 137.0
+grow_horizontal = 2
+
+[node name="WorkerGenerator" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.0
+offset_top = 151.0
+offset_right = 26.0
+offset_bottom = 179.0
+grow_horizontal = 2
+
+[node name="SoldierGenerator" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -25.0
+offset_top = 191.0
+offset_right = 25.0
+offset_bottom = 219.0
+grow_horizontal = 2
+
+[node name="TankGenerator" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -25.0
+offset_top = 236.0
+offset_right = 25.0
+offset_bottom = 264.0
+grow_horizontal = 2
+
+[node name="RangedGenerator" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.0
+offset_top = 279.0
+offset_right = 26.0
+offset_bottom = 307.0
+grow_horizontal = 2
+
+[node name="ScoutGenerator" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -24.0
+offset_top = 320.0
+offset_right = 26.0
+offset_bottom = 348.0
+grow_horizontal = 2
+
+[node name="Farm" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -25.0
+offset_top = 366.0
+offset_right = 25.0
+offset_bottom = 394.0
+grow_horizontal = 2
+
+[node name="Sawmill" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -26.0
+offset_top = 409.0
+offset_right = 24.0
+offset_bottom = 437.0
+grow_horizontal = 2
+
+[node name="Miner" type="Button" parent="UserInterface/BuildingSelect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -25.0
+offset_top = 451.0
+offset_right = 25.0
+offset_bottom = 479.0
+grow_horizontal = 2
+
+[connection signal="gui_input" from="UserInterface/BuildingSelect/UnitUpgrader" to="." method="buildingSelected" binds= ["UnitUpgrader"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/Barracks" to="." method="buildingSelected" binds= ["Barracks"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/WorkerGenerator" to="." method="buildingSelected" binds= ["WorkerGenerator"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/SoldierGenerator" to="." method="buildingSelected" binds= ["SoldierGenerator"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/TankGenerator" to="." method="buildingSelected" binds= ["TankGenerator"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/RangedGenerator" to="." method="buildingSelected" binds= ["RangedGenerator"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/ScoutGenerator" to="." method="buildingSelected" binds= ["ScoutGenerator"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/Farm" to="." method="buildingSelected" binds= ["Farm"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/Sawmill" to="." method="buildingSelected" binds= ["Sawmill"]]
+[connection signal="gui_input" from="UserInterface/BuildingSelect/Miner" to="." method="buildingSelected" binds= ["Miner"]]

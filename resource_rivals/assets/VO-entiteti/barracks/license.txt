@@ -1,0 +1,11 @@
+Model Information:
+* title:	Age of empire II - Barracks
+* source:	https://sketchfab.com/3d-models/age-of-empire-ii-barracks-24fd547e44894225b98d3bc4a52c07c8
+* author:	Tommabri (https://sketchfab.com/tommabri)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Age of empire II - Barracks" (https://sketchfab.com/3d-models/age-of-empire-ii-barracks-24fd547e44894225b98d3bc4a52c07c8) by Tommabri (https://sketchfab.com/tommabri) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

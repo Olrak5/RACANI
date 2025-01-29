@@ -1,0 +1,11 @@
+Model Information:
+* title:	Crystal mine
+* source:	https://sketchfab.com/3d-models/crystal-mine-84f1cd8c378249d981ba485a63b906f3
+* author:	d_kostash (https://sketchfab.com/d_kostash)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Crystal mine" (https://sketchfab.com/3d-models/crystal-mine-84f1cd8c378249d981ba485a63b906f3) by d_kostash (https://sketchfab.com/d_kostash) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
